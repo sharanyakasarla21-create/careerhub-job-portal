@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerHub - Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#home">CareerHub</a>
+    <nav>
+      <a href="#jobs">Find Jobs</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#recruiter">For Employers</a>
+    </nav>
+    <a class="header-button" href="#jobs">Explore Jobs</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">YOUR CAREER STARTS HERE</span>
+        <h1>Find a job that fits <span>your future.</span></h1>
+        <p>Discover opportunities, explore companies, and take the next step in your career with CareerHub.</p>
+
+        <form id="search-form" class="search-box">
+          <input id="search-input" type="search" placeholder="Search jobs, skills or companies" aria-label="Search jobs">
+          <button type="submit">Search Jobs</button>
+        </form>
+
+        <p class="popular">Explore jobs in Technology, Design, Marketing and Business.</p>
+      </div>
+
+      <div class="hero-art">
+        <div class="main-art-card">
+          <div class="mini-icon">↗</div>
+          <span class="art-small">CAREER GROWTH</span>
+          <strong>Your next chapter<br>starts today.</strong>
+          <div class="growth-bars">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="jobs-section section" id="jobs">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">OPPORTUNITIES FOR YOU</span>
+          <h2>Featured Jobs</h2>
+          <p>Explore roles that could be your next big move.</p>
+        </div>
+        <span id="results-count" class="results-count">6 opportunities</span>
+      </div>
+
+      <div class="filter-row">
+        <button class="filter active" data-filter="All" type="button">All Jobs</button>
+        <button class="filter" data-filter="Technology" type="button">Technology</button>
+        <button class="filter" data-filter="Design" type="button">Design</button>
+        <button class="filter" data-filter="Marketing" type="button">Marketing</button>
+        <button class="filter" data-filter="Business" type="button">Business</button>
+      </div>
+
+      <div id="job-list" class="job-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>No jobs found. Try another search.</p>
+    </section>
+
+    <section class="how-section section" id="how-it-works">
+      <div class="section-heading centered">
+        <span class="eyebrow">SIMPLE STEPS</span>
+        <h2>Your Next Job, Made Easier</h2>
+        <p>Three simple steps to move your career forward.</p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-number">01</span>
+          <div class="step-icon">⌕</div>
+          <h3>Discover Opportunities</h3>
+          <p>Search roles that match your skills, interests and goals.</p>
+        </article>
+
+        <article class="step-card">
+          <span class="step-number">02</span>
+          <div class="step-icon">▤</div>
+          <h3>Explore Job Details</h3>
+          <p>Review job descriptions, work types and requirements.</p>
+        </article>
+
+        <article class="step-card">
+          <span class="step-number">03</span>
+          <div class="step-icon">↗</div>
+          <h3>Apply for Jobs</h3>
+          <p>Use the apply button to try the job application demo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="recruiter-banner" id="recruiter">
+      <div>
+        <span class="eyebrow light">HIRING TALENT?</span>
+        <h2>Meet Your Next Great Teammate.</h2>
+        <p>CareerHub brings job seekers and recruiters together.</p>
+      </div>
+      <a class="light-button" href="#jobs">Explore Opportunities ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home">CareerHub</a>
+    <p>Find your next opportunity. Build your future.</p>
+    <span>© 2026 CareerHub | Student Project Demo</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
